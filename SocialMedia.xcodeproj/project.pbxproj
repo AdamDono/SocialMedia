@@ -13,6 +13,7 @@
 		08C98D6A2A5EAE6700B1D023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D682A5EAE6700B1D023 /* Main.storyboard */; };
 		08C98D6C2A5EAE6800B1D023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D6B2A5EAE6800B1D023 /* Assets.xcassets */; };
 		08C98D6F2A5EAE6800B1D023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D6D2A5EAE6800B1D023 /* LaunchScreen.storyboard */; };
+		08C98D772A5ED39E00B1D023 /* Sample photo-fotor-20230712142622.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C98D762A5ED39E00B1D023 /* Sample photo-fotor-20230712142622.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		08C98D6B2A5EAE6800B1D023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C98D6E2A5EAE6800B1D023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C98D702A5EAE6800B1D023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C98D762A5ED39E00B1D023 /* Sample photo-fotor-20230712142622.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sample photo-fotor-20230712142622.jpg"; path = "../../../../Downloads/Sample photo-fotor-20230712142622.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				08C98D662A5EAE6700B1D023 /* ViewController.swift */,
 				08C98D682A5EAE6700B1D023 /* Main.storyboard */,
 				08C98D6B2A5EAE6800B1D023 /* Assets.xcassets */,
+				08C98D762A5ED39E00B1D023 /* Sample photo-fotor-20230712142622.jpg */,
 				08C98D6D2A5EAE6800B1D023 /* LaunchScreen.storyboard */,
 				08C98D702A5EAE6800B1D023 /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				08C98D6F2A5EAE6800B1D023 /* LaunchScreen.storyboard in Resources */,
 				08C98D6C2A5EAE6800B1D023 /* Assets.xcassets in Resources */,
+				08C98D772A5ED39E00B1D023 /* Sample photo-fotor-20230712142622.jpg in Resources */,
 				08C98D6A2A5EAE6700B1D023 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SocialMedia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hsw-Rs-GFF">
-                                <rect key="frame" x="16" y="84" width="158.66666666666666" height="25"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsw-Rs-GFF">
+                                <rect key="frame" x="20" y="71" width="158.66666666666666" height="25"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FGI-ij-EZ9">
                                         <rect key="frame" x="0.0" y="0.0" width="39.666666666666664" height="25"/>
@@ -49,13 +49,43 @@
                                 <rect key="frame" x="76" y="105" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="road-1072823_1280" translatesAutoresizingMaskIntoConstraints="NO" id="OYF-X0-Dak">
-                                <rect key="frame" x="67" y="130" width="258" height="148"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="road-1072823_1280" translatesAutoresizingMaskIntoConstraints="NO" id="OYF-X0-Dak">
+                                <rect key="frame" x="16" y="134" width="361" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZI7-dp-5O0">
+                                <rect key="frame" x="143" y="162" width="88" height="145"/>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sample photo-fotor-20230712142622" translatesAutoresizingMaskIntoConstraints="NO" id="Gyx-cG-WTa">
+                                <rect key="frame" x="143" y="-254" width="91" height="1140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woQ-tH-T7c">
+                                <rect key="frame" x="157" y="368" width="60" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Homie from the hood with a story to {Commit}" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5M-To-cs9">
+                                <rect key="frame" x="5" y="388" width="392" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZI7-dp-5O0" secondAttribute="trailing" constant="143" id="1gp-Sy-fb8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZI7-dp-5O0" secondAttribute="trailing" constant="143" id="70q-lW-o2T"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ZI7-dp-5O0" secondAttribute="bottom" constant="511" id="I67-XQ-all"/>
+                            <constraint firstItem="ZI7-dp-5O0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="JxG-00-MMf"/>
+                            <constraint firstItem="ZI7-dp-5O0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="don-ia-rxo"/>
+                            <constraint firstItem="hsw-Rs-GFF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="h4Z-jA-56P"/>
+                            <constraint firstItem="hsw-Rs-GFF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tu8-De-z9e"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="HrB-Hk-NbF"/>
@@ -69,6 +99,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Sample photo-fotor-20230712142622" width="1140" height="1140"/>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
         <image name="folder.badge.minus" catalog="system" width="128" height="92"/>
         <image name="road-1072823_1280" width="1280" height="748"/>
